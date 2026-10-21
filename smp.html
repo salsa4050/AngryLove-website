@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AngryLove SMP · Crea, explora y sobrevive</title>
+<meta name="description" content="AngryLove SMP: modo de supervivencia multijugador de la red AngryLove para Minecraft Java Edition. Accede desde el Lobby.">
+<meta name="theme-color" content="#07100c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AngryLove SMP · Crea, explora y sobrevive">
+<meta property="og:description" content="AngryLove SMP: modo de supervivencia multijugador de la red AngryLove para Minecraft Java Edition. Accede desde el Lobby.">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-gold-400 focus:px-4 focus:py-2 focus:text-ink-950">Saltar al contenido</a>
+<header class="sticky top-0 z-50 border-b border-white/10 bg-ink-950/85 backdrop-blur">
+  <div class="container-x flex h-16 items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2.5 font-display text-lg font-bold text-white">
+      <img src="assets/img/favicon.svg" alt="" width="30" height="30" class="rounded-lg">
+      <span>Angry<span class="text-emerald-400">Love</span></span>
+    </a>
+    <nav class="hidden items-center gap-1 md:flex" aria-label="Principal">
+      <a href="index.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:text-white text-slate-400">Inicio</a><a href="smp.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:text-white text-white" aria-current="page">SMP</a><a href="como-jugar.html" class="rounded-lg px-3 py-2 text-sm font-medium transition hover:text-white text-slate-400">Cómo jugar</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="como-jugar.html" class="btn-primary hidden sm:inline-flex !py-2">Jugar ahora</a>
+      <button id="menu-toggle" type="button" class="rounded-lg p-2 text-white hover:bg-white/10 md:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" hidden class="border-t border-white/10 bg-ink-900 md:hidden">
+    <nav class="container-x flex flex-col gap-1 py-3" aria-label="Móvil">
+      <a href="index.html" class="rounded-lg px-3 py-3 text-white hover:bg-white/5">Inicio</a>
+      <a href="smp.html" class="rounded-lg px-3 py-3 text-white hover:bg-white/5">SMP</a>
+      <a href="como-jugar.html" class="rounded-lg px-3 py-3 text-white hover:bg-white/5">Cómo jugar</a>
+      <button type="button" class="btn-primary mt-2" data-copy-ip><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span data-label>Copiar IP</span></button>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="relative overflow-hidden border-b border-white/10">
+  <div class="bg-grid absolute inset-0" aria-hidden="true"></div>
+  <div class="absolute right-0 top-0 h-72 w-72 rounded-full bg-gold-400/10 blur-3xl" aria-hidden="true"></div>
+  <div class="container-x relative py-14 sm:py-20">
+    <p class="eyebrow">Supervivencia multijugador</p>
+    <h1 class="mt-3 max-w-3xl text-4xl font-extrabold leading-tight sm:text-6xl">AngryLove SMP: crea, explora y sobrevive</h1>
+    <p class="mt-5 max-w-2xl text-lg text-slate-300">Un mundo survival para compartir con otras personas: construye tu base, explora y vive tu propia aventura en Minecraft Java Edition.</p>
+    <div class="mt-8 flex flex-col gap-3 sm:flex-row"><button type="button" class="btn-primary" data-copy-ip><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span data-label>Entrar al SMP · Copiar IP</span></button><a href="como-jugar.html" class="btn-ghost">Cómo jugar <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+<section class="container-x py-16" aria-labelledby="acceso">
+  <div class="grid items-center gap-10 lg:grid-cols-2">
+    <div>
+      <p class="eyebrow">Acceso</p>
+      <h2 id="acceso" class="mt-2 text-3xl font-extrabold">Se entra desde el Lobby</h2>
+      <p class="mt-4 leading-relaxed text-slate-300">No hay una conexión directa al SMP: te conectas a la red, apareces en el Lobby y desde allí eliges tu destino.</p>
+      <ul class="mt-5 space-y-3 text-sm text-slate-300">
+        <li class="flex gap-3"><span class="text-emerald-400" aria-hidden="true">✓</span>Conéctate a <span class="kbd" data-cfg="address">angrylove-node.duckdns.org</span></li>
+        <li class="flex gap-3"><span class="text-emerald-400" aria-hidden="true">✓</span>Usa la brújula / selector de servidores y elige SMP</li>
+        <li class="flex gap-3"><span class="text-emerald-400" aria-hidden="true">✓</span>O escribe <span class="kbd">/server smp</span> en el chat</li>
+      </ul>
+    </div>
+    <div class="relative rounded-3xl border border-white/10 bg-ink-800/70 p-6 shadow-glow" aria-hidden="true">
+      <div class="flex items-center justify-between gap-2 text-center text-sm font-semibold">
+        <div class="flex-1 rounded-xl bg-white/5 p-4 text-white">Tu cliente<br><span class="text-xs font-normal text-slate-400">Java Edition</span></div>
+        <span class="text-emerald-400">→</span>
+        <div class="flex-1 rounded-xl bg-gold-400/10 p-4 text-gold-400">Lobby<br><span class="text-xs font-normal text-slate-400">selector</span></div>
+        <span class="text-emerald-400">→</span>
+        <div class="flex-1 rounded-xl bg-emerald-400/15 p-4 text-emerald-300">SMP<br><span class="text-xs font-normal text-slate-400">survival</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-x py-16 sm:py-20">
+  <div class="relative overflow-hidden rounded-3xl border border-emerald-400/30 bg-gradient-to-br from-emerald-500/20 via-ink-800 to-ink-900 px-6 py-12 text-center sm:px-12">
+    <h2 class="text-3xl font-extrabold sm:text-4xl">¿Listo para entrar?</h2>
+    <p class="mx-auto mt-3 max-w-lg text-slate-300">Copia la IP, añádela en Minecraft Java y te esperamos en el Lobby.</p>
+    <div class="mt-7 flex flex-col justify-center gap-3 sm:flex-row"><button type="button" class="btn-gold" data-copy-ip><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span data-label>Copiar IP</span></button><a href="como-jugar.html" class="btn-ghost">Cómo jugar <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+</main>
+<footer class="border-t border-white/10 bg-ink-900">
+  <div class="container-x grid gap-8 py-12 md:grid-cols-3">
+    <div>
+      <p class="font-display text-xl font-bold text-white">Angry<span class="text-emerald-400">Love</span></p>
+      <p class="mt-3 max-w-xs text-sm text-slate-400">Red de Minecraft Java Edition con Lobby y modo AngryLove SMP.</p>
+    </div>
+    <div>
+      <p class="text-sm font-semibold text-white">Navegación</p>
+      <ul class="mt-3 space-y-2 text-sm text-slate-400">
+        <li><a class="hover:text-white" href="index.html">Inicio</a></li>
+        <li><a class="hover:text-white" href="smp.html">AngryLove SMP</a></li>
+        <li><a class="hover:text-white" href="como-jugar.html">Cómo jugar</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-sm font-semibold text-white">Conéctate</p>
+      <p class="mt-3 font-mono text-sm text-gold-400" data-cfg="address">angrylove-node.duckdns.org</p>
+      <ul class="mt-3 space-y-2 text-sm text-slate-400">
+        <li data-show-if="discord" hidden><a class="hover:text-white" data-cfg="discord" href="#" rel="noopener noreferrer" target="_blank">Discord</a></li>
+        <li data-show-if="email" hidden><a class="hover:text-white" data-cfg="email" href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10 py-5">
+    <p class="container-x text-xs text-slate-500">© <span data-year>2026</span> AngryLove. Proyecto de fans, no afiliado a Mojang Studios ni a Microsoft. Minecraft es una marca de Mojang Studios.</p>
+  </div>
+</footer>
+<p id="copy-live" class="sr-only" role="status" aria-live="polite"></p>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js" defer></script>
+</body></html>
